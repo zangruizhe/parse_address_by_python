@@ -361,6 +361,14 @@ def CheckTheDict(province_name, city_name, province_dict_list):
 
 
 if __name__ == "__main__":
+  paragraph_strs = [
+      u'阿爸阿爸父',
+      u'教会啊你要兴起',
+      u'惟有主的话永长存'
+  ]
+
+  print paragraph_strs
+
   # log.info("province_info_list len:", len(province_info_list)
   # CheckTheDict(u"北京市", u"崇文区",  province_info_list)
   # 
